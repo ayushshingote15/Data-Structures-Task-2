@@ -18,6 +18,7 @@ public class DataStructuresTask {
         int secondLowest = arr[1];
         int secondHighest = arr[arr.length - 2];
 
+        System.out.println("Finding second highest and second lowest.");
         System.out.println("Second Lowest: " + secondLowest);
         System.out.println("Second Highest: " + secondHighest);
     }
@@ -25,7 +26,6 @@ public class DataStructuresTask {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         int[] numbers = new int[5];
 
         System.out.println("Enter 5 different numbers:");
