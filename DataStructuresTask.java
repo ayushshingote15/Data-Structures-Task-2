@@ -12,6 +12,7 @@ public class DataStructuresTask {
                 }
             }
         }
+        System.out.println("Array sorted successfully.");
     }
 
     static void findSecondValues(int[] arr) {
@@ -25,7 +26,6 @@ public class DataStructuresTask {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         int[] numbers = new int[5];
 
         System.out.println("Enter 5 different numbers:");
