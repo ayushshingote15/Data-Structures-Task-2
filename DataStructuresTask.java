@@ -19,6 +19,7 @@ public class DataStructuresTask {
         int secondLowest = arr[1];
         int secondHighest = arr[arr.length - 2];
 
+        System.out.println("Finding second highest and second lowest.");
         System.out.println("Second Lowest: " + secondLowest);
         System.out.println("Second Highest: " + secondHighest);
     }
